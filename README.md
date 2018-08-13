@@ -7,7 +7,7 @@ Sebenarnya secara sadar atau tidak sadar bagi yang sering bekerja dengan kode HT
 
 App.js
 =======
-`import React from 'react';
+```import React from 'react';
 import Header from './components/header.jsx';
 import Content from './components/content.jsx';
 import Footer from './components/footer.jsx';
@@ -22,11 +22,11 @@ export default class App extends React.Component {
       </div>
     )
   }
-}`
+}```
 
 # header.jsx
 
-`import React from 'react';
+```import React from 'react';
 
 export default class Header extends React.Component{
   render(){
@@ -36,11 +36,11 @@ export default class Header extends React.Component{
       </div>
     )
   }
-}`
+}```
 
 #content.jsx
 
-`import React from 'react';
+```import React from 'react';
 
 export default class Content extends React.Component{
   render(){
@@ -50,11 +50,11 @@ export default class Content extends React.Component{
       </div>
     )
   }
-}`
+}```
 
 # footer.jsx
 
-`import React from 'react';
+```import React from 'react';
 
 export default class Footer extends React.Component{
   render(){
@@ -64,4 +64,4 @@ export default class Footer extends React.Component{
       </div>
     )
   }
-}`
+}```
