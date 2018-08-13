@@ -1,4 +1,5 @@
-##Mengenal Components di React.js dengan ES6
+Mengenal Components di React.js dengan ES6
+===
 
 **Components** bisa di bilang hal yang sangat penting di react.js. Components adalah semacam konsep bagaimana cara untuk membuat tiap bagian dari UI (tampilan) bisa bekerja secara mandiri dan terisolasi dari bagian-bagian yang lain.
 
@@ -6,12 +7,12 @@ Sebenarnya secara sadar atau tidak sadar bagi yang sering bekerja dengan kode HT
 
 App.js
 =======
-import React from 'react';
+`import React from 'react';
 import Header from './components/header.jsx';
 import Content from './components/content.jsx';
 import Footer from './components/footer.jsx';
 
-> export default class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div>
@@ -21,11 +22,11 @@ import Footer from './components/footer.jsx';
       </div>
     )
   }
-}
+}`
 
 # header.jsx
 
-import React from 'react';
+`import React from 'react';
 
 export default class Header extends React.Component{
   render(){
@@ -35,13 +36,13 @@ export default class Header extends React.Component{
       </div>
     )
   }
-}
+}`
 
 #content.jsx
 
-import React from 'react';
+`import React from 'react';
 
-> export default class Content extends React.Component{
+export default class Content extends React.Component{
   render(){
     return (
       <div>
@@ -49,11 +50,11 @@ import React from 'react';
       </div>
     )
   }
-}
+}`
 
 # footer.jsx
 
-> import React from 'react';
+`import React from 'react';
 
 export default class Footer extends React.Component{
   render(){
@@ -63,4 +64,4 @@ export default class Footer extends React.Component{
       </div>
     )
   }
-}
+}`
