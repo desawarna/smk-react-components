@@ -24,7 +24,7 @@ export default class App extends React.Component {
   }
 }```
 
-# header.jsx
+## header.jsx
 
 ```import React from 'react';
 
@@ -38,7 +38,8 @@ export default class Header extends React.Component{
   }
 }```
 
-#content.jsx
+
+##Content.jsx
 
 ```import React from 'react';
 
@@ -52,7 +53,7 @@ export default class Content extends React.Component{
   }
 }```
 
-# footer.jsx
+##Footer.jsx
 
 ```import React from 'react';
 
