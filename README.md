@@ -8,9 +8,9 @@ Sebenarnya secara sadar atau tidak sadar bagi yang sering bekerja dengan kode HT
 App.jsx
 =======
     import React from 'react';
-    import Header from './components/header.jsx';
-    import Content from './components/content.jsx';
-    import Footer from './components/footer.jsx';
+    import Header from './Components/Header.jsx';
+    import Content from './Components/Content.jsx';
+    import Footer from './Components/Footer.jsx';
 
     export default class App extends React.Component {
     render() {
@@ -20,9 +20,48 @@ App.jsx
         <Content />
         <Footer />
       </div>
-    )
-    }
-    }
+        )
+        }
+       }
+
+Buat folder Components di dalam folder src , ingat sensitive case , huruf besar dan kecil beda. Kemudian dalam folder **Components** buat 3 file ini yaitu ```Header.jsx``` , ```Content.jsx``` , ```Footer.jsx```
 
 Header.jsx
 ======
+    import React from 'react';
+
+    export default class Header extends React.Component{
+      render(){
+        return (
+          <div>
+            <h1>Header</h1>
+          </div>
+        )
+      }
+    }
+
+Content.jsx
+======
+    import React from 'react';
+    
+    export default class Content extends React.Component{
+      render(){
+        return (
+          <div>
+            Mantap jiwa!!!!!!!
+          </div>
+      }
+    }
+
+Footer.jsx
+======
+    import React from 'react';
+    
+    export default class Footer extends React.Component{
+      render(){
+        return (
+            <p><b>footer</b></p>
+          </div>
+        )
+      }
+    }
