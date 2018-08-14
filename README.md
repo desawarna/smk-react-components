@@ -5,15 +5,15 @@ Mengenal Components di React.js dengan ES6
 
 Sebenarnya secara sadar atau tidak sadar bagi yang sering bekerja dengan kode HTML, selalu melakukan pemisahan bagian dari halaman-halaman misalnya Header, Content, dan Footer. Biasanya tujuannya agar kode tidak menumpuk di satu halaman sehingga di pisahkan ke file-file kecil yang lebih spesifik fungsinya dan kode lebih maintainable jika ada perbaikan.
 
-App.js
+App.jsx
 =======
-```import React from 'react';
-import Header from './components/header.jsx';
-import Content from './components/content.jsx';
-import Footer from './components/footer.jsx';
+    import React from 'react';
+    import Header from './components/header.jsx';
+    import Content from './components/content.jsx';
+    import Footer from './components/footer.jsx';
 
-export default class App extends React.Component {
-  render() {
+    export default class App extends React.Component {
+    render() {
     return (
       <div>
         <Header />
@@ -21,48 +21,8 @@ export default class App extends React.Component {
         <Footer />
       </div>
     )
-  }
-}```
+    }
+    }
 
-## header.jsx
-
-```import React from 'react';
-
-export default class Header extends React.Component{
-  render(){
-    return (
-      <div>
-        <h1>Header</h1>
-      </div>
-    )
-  }
-}```
-
-
-##Content.jsx
-
-```import React from 'react';
-
-export default class Content extends React.Component{
-  render(){
-    return (
-      <div>
-        Mantap jiwa!!!!!!!
-      </div>
-    )
-  }
-}```
-
-##Footer.jsx
-
-```import React from 'react';
-
-export default class Footer extends React.Component{
-  render(){
-    return (
-      <div>
-        <p><b>footer</b></p>
-      </div>
-    )
-  }
-}```
+Header.jsx
+======
